@@ -1,0 +1,59 @@
+body, div, span {
+    border-width:0;
+    padding: 0;
+    margin: 0;
+}
+
+#phone {
+    margin: auto;
+    height: 406px;
+    width: 765px;
+}
+
+#left{
+    float: left;
+    width: 204px;
+    background : url(../canvasL/left_canvas.jpg) no-repeat top left;
+    display: inline-block;
+    height: 100%;
+    }
+
+#right{
+    float: right;
+    width: 157px;
+    background : url(../canvasL/right_canvas.jpg) no-repeat top right;
+    display: inline-block;
+    height: 100%;
+    }
+
+#mid{
+    width: 404px;
+    display: inline-block;
+    }
+
+#top {
+    display: block;
+    width: 100%;
+    height: 43px;
+    background : url(../canvasL/top_canvas.jpg) no-repeat top;
+}
+
+#game{
+    display: block;
+    width: 100%;
+    height:  320px;
+    background: rgb(255,255,255);
+    margin: 0;
+    /*fixing the whitespace bug:
+    *see http://css-tricks.com/fighting-the-space-between-inline-block-elements/*/
+    font-size: 0px;
+    background: linear-gradient(to bottom, #014b29 50%,#168d5c 100%);
+    }
+
+#bottom{
+    display: block;
+    width: 100%;
+    height: 43px;
+    background : url(../canvasL/bottom_canvas.jpg) no-repeat bottom;
+    }
+

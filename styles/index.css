@@ -1,0 +1,58 @@
+/*
+ *html, css, js coded by Iskren
+ *idea inspired by Triniteck
+ *image colors improved by Boryana Petrova
+*/
+
+@import url(tiles.css);
+@import url(phone.css);
+@import url(buttons.css);
+
+#header{
+    height: 20px;
+    background: linear-gradient(to bottom, #014b29 25%,#168d5c 100%);
+    font: normal 13px 'Myriad Pro', Helvetica, sans-serif;
+    line-height: 18px;
+    color: #fff;
+    text-shadow: 1px 1px 2px #000;
+}
+
+#score-board{
+    height:10px;
+    display: inline;
+    float: right;
+}
+#bid-price{
+    height:10px;
+    display: inline;
+}
+
+#infogroup{
+    padding-left: 12px;
+    margin-top: 45px;
+    font-size: 13px;/*restore font-size after bug-fix*/
+    border: 0px solid #168d5c;/*#014b29*/
+    height:45px;
+    /*display: none;*/
+}
+#scoring{
+    display:none;
+}
+
+#footer{
+    height: 20px;
+    background: linear-gradient(to bottom, #014b29 -50%,#168d5c 100%);
+    font: normal 13px 'Myriad Pro', Helvetica, sans-serif;
+    line-height: 18px;
+    margin-top: 40px;
+    color: #fff;
+    text-shadow: 1px 1px 2px #000;
+    width:100%;
+}
+#gamePlayInfo{
+    height:10px;
+    text-align: center;
+    width:100%;
+}
+
+
